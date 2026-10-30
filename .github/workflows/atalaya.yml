@@ -1,0 +1,39 @@
+name: atalaya
+
+# Cada 5 minutos (lo mínimo que permite GitHub; en horas pico puede demorarse unos minutos) y a mano desde Actions.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+# Solo escribe en este repo (estado.json y ESTADO.md), con el token que GitHub le da a cada corrida.
+permissions:
+  contents: write
+
+# Una corrida por vez: el estado de una es lo que lee la siguiente.
+concurrency:
+  group: atalaya
+  cancel-in-progress: false
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      # Sale con 1 solo cuando hay que avisar: esa corrida fallida es la que hace que GitHub mande el correo.
+      - name: Probar las webs
+        run: node check.mjs
+
+      # Corre aunque el paso anterior haya fallado: si no, la próxima corrida no sabría que ya avisó.
+      - name: Guardar el estado
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "atalaya"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add estado.json ESTADO.md
+            git commit -m "estado: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
