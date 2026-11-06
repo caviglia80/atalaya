@@ -1,5 +1,5 @@
 {
-  "writtenAt": "2026-10-30T21:09:06.242Z",
+  "writtenAt": "2026-11-06T21:12:01.260Z",
   "down": [],
   "alertedAt": null,
   "results": [
@@ -8,7 +8,7 @@
       "url": "https://inmo.ssslabs.com.ar/api/health",
       "ok": true,
       "status": 200,
-      "ms": 911,
+      "ms": 607,
       "error": null
     },
     {
@@ -16,7 +16,7 @@
       "url": "https://inmo-demo.ssslabs.com.ar/",
       "ok": true,
       "status": 200,
-      "ms": 1049,
+      "ms": 651,
       "error": null
     },
     {
@@ -24,7 +24,7 @@
       "url": "https://ssslabs.com.ar/",
       "ok": true,
       "status": 200,
-      "ms": 850,
+      "ms": 568,
       "error": null
     },
     {
@@ -32,7 +32,7 @@
       "url": "https://silphy.ssslabs.com.ar/api/salud",
       "ok": true,
       "status": 200,
-      "ms": 504,
+      "ms": 407,
       "error": null
     }
   ],
