@@ -9,6 +9,8 @@ const SITES = [
   { name: "inmo · demo (pasa por el Worker)", url: "https://inmo-demo.ssslabs.com.ar/" },
   { name: "ssslabs", url: "https://ssslabs.com.ar/" },
   { name: "silphy", url: "https://silphy.ssslabs.com.ar/api/salud", expect: (body) => body.includes('"ok":true') },
+  { name: "cargo · plataforma", url: "https://cargo.ssslabs.com.ar/api/health", expect: (body) => body.includes('"status":"ok"') },
+  { name: "cargo · demo (el panel de una agencia)", url: "https://cargo-demo.ssslabs.com.ar/admin/login" },
 ];
 
 const TIMEOUT_MS = 20_000;

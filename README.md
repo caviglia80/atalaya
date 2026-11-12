@@ -10,6 +10,8 @@ correo de «workflow failed» a la cuenta dueña del repo.
 | inmo · demo | `https://inmo-demo.ssslabs.com.ar/` responde 200 (un sitio de cliente, que pasa por el Worker de Cloudflare) |
 | ssslabs | `https://ssslabs.com.ar/` responde 200 |
 | silphy | `https://silphy.ssslabs.com.ar/api/salud` responde 200 con `"ok":true` |
+| cargo · plataforma | `https://cargo.ssslabs.com.ar/api/health` responde 200 con `"status":"ok"` (la app y su base) |
+| cargo · demo | `https://cargo-demo.ssslabs.com.ar/admin/login` responde 200 (el panel de una agencia, que pasa por el Worker de Cloudflare) |
 
 - **Sin falsas alarmas por un corte de segundos**: si algo falla, se vuelve a probar a los 30 s antes de darlo por caído.
 - **Un correo por caída**: avisa cuando algo se cae y, si sigue caído, cada 6 horas; la vuelta queda en `ESTADO.md`.
