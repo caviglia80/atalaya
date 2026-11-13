@@ -1,5 +1,5 @@
 {
-  "writtenAt": "2026-11-06T21:12:01.260Z",
+  "writtenAt": "2026-11-13T21:13:00.246Z",
   "down": [],
   "alertedAt": null,
   "results": [
@@ -8,7 +8,7 @@
       "url": "https://inmo.ssslabs.com.ar/api/health",
       "ok": true,
       "status": 200,
-      "ms": 607,
+      "ms": 906,
       "error": null
     },
     {
@@ -16,7 +16,7 @@
       "url": "https://inmo-demo.ssslabs.com.ar/",
       "ok": true,
       "status": 200,
-      "ms": 651,
+      "ms": 656,
       "error": null
     },
     {
@@ -24,7 +24,7 @@
       "url": "https://ssslabs.com.ar/",
       "ok": true,
       "status": 200,
-      "ms": 568,
+      "ms": 521,
       "error": null
     },
     {
@@ -32,7 +32,23 @@
       "url": "https://silphy.ssslabs.com.ar/api/salud",
       "ok": true,
       "status": 200,
-      "ms": 407,
+      "ms": 347,
+      "error": null
+    },
+    {
+      "name": "cargo · plataforma",
+      "url": "https://cargo.ssslabs.com.ar/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 540,
+      "error": null
+    },
+    {
+      "name": "cargo · demo (el panel de una agencia)",
+      "url": "https://cargo-demo.ssslabs.com.ar/admin/login",
+      "ok": true,
+      "status": 200,
+      "ms": 550,
       "error": null
     }
   ],
