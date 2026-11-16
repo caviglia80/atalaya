@@ -1,24 +1,22 @@
 {
-  "writtenAt": "2026-11-16T17:07:02.622Z",
-  "down": [
-    "inmo · plataforma"
-  ],
-  "alertedAt": "2026-11-16T17:07:02.622Z",
+  "writtenAt": "2026-11-16T17:16:29.319Z",
+  "down": [],
+  "alertedAt": null,
   "results": [
     {
       "name": "inmo · plataforma",
       "url": "https://inmo.ssslabs.com.ar/api/health",
-      "ok": false,
-      "status": null,
-      "ms": 20001,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "status": 200,
+      "ms": 766,
+      "error": null
     },
     {
       "name": "inmo · demo (pasa por el Worker)",
       "url": "https://inmo-demo.ssslabs.com.ar/",
       "ok": true,
       "status": 200,
-      "ms": 2110,
+      "ms": 1262,
       "error": null
     },
     {
@@ -26,7 +24,7 @@
       "url": "https://ssslabs.com.ar/",
       "ok": true,
       "status": 200,
-      "ms": 2161,
+      "ms": 945,
       "error": null
     },
     {
@@ -34,7 +32,7 @@
       "url": "https://silphy.ssslabs.com.ar/api/salud",
       "ok": true,
       "status": 200,
-      "ms": 669,
+      "ms": 572,
       "error": null
     },
     {
@@ -42,7 +40,7 @@
       "url": "https://cargo.ssslabs.com.ar/api/health",
       "ok": true,
       "status": 200,
-      "ms": 2973,
+      "ms": 868,
       "error": null
     },
     {
@@ -50,11 +48,15 @@
       "url": "https://cargo-demo.ssslabs.com.ar/admin/login",
       "ok": true,
       "status": 200,
-      "ms": 7672,
+      "ms": 1121,
       "error": null
     }
   ],
   "incidents": [
+    {
+      "at": "2026-11-16T17:16:29.319Z",
+      "text": "🟢 inmo · plataforma volvió"
+    },
     {
       "at": "2026-11-16T17:07:02.622Z",
       "text": "🔴 inmo · plataforma dejó de responder"
