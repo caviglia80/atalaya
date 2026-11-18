@@ -1,20 +1,21 @@
 # Estado
 
-Última vez que cambió algo o que se confirmó que todo sigue igual: **2026-11-18T19:24:18.265Z** (UTC). Cada corrida, cada
+Última vez que cambió algo o que se confirmó que todo sigue igual: **2026-11-18T19:30:24.893Z** (UTC). Cada corrida, cada
 5 minutos, se ve en la pestaña *Actions* del repo; este archivo se reescribe cuando algo cambia y, si no, una vez por
 semana.
 
 | Sitio | Dirección | Respuesta |
 |---|---|---|
-| 🔴 inmo · plataforma | https://inmo.ssslabs.com.ar/api/health | The operation was aborted due to timeout |
-| 🟢 inmo · demo (pasa por el Worker) | https://inmo-demo.ssslabs.com.ar/ | 1225 ms |
-| 🟢 ssslabs | https://ssslabs.com.ar/ | 1130 ms |
-| 🟢 silphy | https://silphy.ssslabs.com.ar/api/salud | 808 ms |
-| 🟢 cargo · plataforma | https://cargo.ssslabs.com.ar/api/health | 1204 ms |
-| 🟢 cargo · demo (el panel de una agencia) | https://cargo-demo.ssslabs.com.ar/admin/login | 933 ms |
+| 🟢 inmo · plataforma | https://inmo.ssslabs.com.ar/api/health | 794 ms |
+| 🟢 inmo · demo (pasa por el Worker) | https://inmo-demo.ssslabs.com.ar/ | 722 ms |
+| 🟢 ssslabs | https://ssslabs.com.ar/ | 509 ms |
+| 🟢 silphy | https://silphy.ssslabs.com.ar/api/salud | 413 ms |
+| 🟢 cargo · plataforma | https://cargo.ssslabs.com.ar/api/health | 458 ms |
+| 🟢 cargo · demo (el panel de una agencia) | https://cargo-demo.ssslabs.com.ar/admin/login | 485 ms |
 
 ## Caídas y vueltas (las 20 más recientes)
 
+- 2026-11-18T19:30:24.893Z · 🟢 inmo · plataforma volvió
 - 2026-11-18T19:24:18.265Z · 🔴 inmo · plataforma dejó de responder
 - 2026-11-16T17:16:29.319Z · 🟢 inmo · plataforma volvió
 - 2026-11-16T17:07:02.622Z · 🔴 inmo · plataforma dejó de responder
