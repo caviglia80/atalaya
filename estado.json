@@ -1,16 +1,14 @@
 {
-  "writtenAt": "2026-11-25T04:37:43.507Z",
-  "down": [
-    "ssslabs"
-  ],
-  "alertedAt": "2026-11-25T04:37:43.507Z",
+  "writtenAt": "2026-11-25T04:43:57.590Z",
+  "down": [],
+  "alertedAt": null,
   "results": [
     {
       "name": "inmo · plataforma",
       "url": "https://inmo.ssslabs.com.ar/api/health",
       "ok": true,
       "status": 200,
-      "ms": 478,
+      "ms": 803,
       "error": null
     },
     {
@@ -18,23 +16,23 @@
       "url": "https://inmo-demo.ssslabs.com.ar/",
       "ok": true,
       "status": 200,
-      "ms": 458,
+      "ms": 765,
       "error": null
     },
     {
       "name": "ssslabs",
       "url": "https://ssslabs.com.ar/",
-      "ok": false,
-      "status": 403,
-      "ms": 49,
-      "error": "respondió 403"
+      "ok": true,
+      "status": 200,
+      "ms": 816,
+      "error": null
     },
     {
       "name": "silphy",
       "url": "https://silphy.ssslabs.com.ar/api/salud",
       "ok": true,
       "status": 200,
-      "ms": 384,
+      "ms": 614,
       "error": null
     },
     {
@@ -42,7 +40,7 @@
       "url": "https://cargo.ssslabs.com.ar/api/health",
       "ok": true,
       "status": 200,
-      "ms": 587,
+      "ms": 890,
       "error": null
     },
     {
@@ -50,11 +48,15 @@
       "url": "https://cargo-demo.ssslabs.com.ar/admin/login",
       "ok": true,
       "status": 200,
-      "ms": 604,
+      "ms": 1131,
       "error": null
     }
   ],
   "incidents": [
+    {
+      "at": "2026-11-25T04:43:57.590Z",
+      "text": "🟢 ssslabs volvió"
+    },
     {
       "at": "2026-11-25T04:37:43.507Z",
       "text": "🔴 ssslabs dejó de responder"
